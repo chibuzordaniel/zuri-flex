@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+body{
+    overflow-x: hidden;
+}
+
+
+.nav-link {
+    display: flex;
+    gap: 60px;
+    position: absolute;
+    top: 210px;
+    margin-left: 120px;
+ 
+}
+
+
+#back{
+    background: url('../img/WhatsApp\ Image\ 2022-06-15\ at\ 2.22.00\ PM.jpeg');
+    position: relative;
+    top: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+
+#back::before {
+    content: '';
+    background-color: hsl(0, 100%, 74%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+}
+
+    .flex1{
+    position: relative;
+    right: 0px;
+    }
+
+.flex2{
+    background-color: #fff;
+    margin-top: 20px;
+    /* position: absolute; */
+    width: 100%;
+    padding: 50px;
+    height: 520px;
+    border-radius: 20px;
+}
+
+
+
+
+
+.link{
+    margin-top: 150px;
+    color: #fff;
+    position: relative;
+}
+
+.link > h1{
+    font-size: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:  400, 500, 600, 700;
+}
+
+.link > p{
+    font-family: 'Poppins', sans-serif;
+    width: 500px;
+    font-size: 20px;
+    line-height: 1.7;
+    padding-top: 35px;
+    font-weight:  400, 500, 600, 700;
+}
+
+.input1 > input{
+    margin-bottom: 30px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left: 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    color: hsl(246, 25%, 77%);
+}
+
+
+.btn4{
+    width: 100%; 
+    height: 50px; 
+    font-size: 17px;
+    /* margin-bottom: 20px; */
+    border-radius: 5px;
+    color: #ffff;
+    background-color: hsl(248, 32%, 49%);
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+
+.btn7{
+
+    width: 100%;
+    height: 50px;
+    background-color: hsl(154, 59%, 51%);
+    color: #ffff;
+    margin-bottom: 27px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+
+}
+
+.span-btn{
+    color: hsl(246, 25%, 77%);
+}
+
+.text-buttom{
+color:hsl(0, 100%, 74%) 
+}
+
+
+@media screen and (max-width: 900px) {
+   .nav-link{
+       display: block;
+   } 
+
+   .link > p{
+       width: 50%;
+   }
+
+   #back{
+       width: 100%;
+       height: 150vh;
+   }
+
+   #back::before{
+       height: 150vh;
+   }
+
+   .nav-link{
+      margin-top: -230px;
+      margin-left: 30px;
+   }
+
+   .link > h1 {
+       margin-left: 70px;
+      font-size: 55px;
+
+   }
+
+   .link > p{
+    margin-left: 70px;
+    width: 85%;
+    font-size: 30px;
+   }
+
+
+   .btn4{
+       margin-top: 50px;
+       width: 90%;
+       margin-left: 25px;
+       height: 150px;
+       font-size: 28px;
+   }
+
+   .flex2{
+    margin-top: 40px;
+    margin-left: 25px ;  
+    width: 90%; 
+    height: 680px;
+   }
+
+
+   .input1 > input{
+       height: 90px;
+       font-size: 28px;
+   }
+  
+
+   .btn7{
+    height: 90px;
+    font-size: 28px;
+   }
+
+
+   .click-p{
+       font-size: 20px;
+   }
+
+
+}
+
+
+@media screen  and (max-width: 500px) {
+    
+      #back{
+          height: 1150px;
+      }
+
+      #back::before{
+        height: 1150px;
+    }
+
+    .link > h1{
+        font-size: 30px;
+        width: 99%;
+        margin-left: 0px;
+    }
+
+    .link > p {
+      width: 90%;
+      margin-left: 0px;
+      font-size: 16px;
+    }
+
+    .input1 > input{
+        height: 55px;
+        width: 100%;
+        font-size: 14px;
+    }
+
+
+    .btn7{
+        font-size: 12px;
+        height: 55px;
+        width: 100%;
+    }
+
+    .click-p{
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .btn4{
+        margin-left: 0;
+    }
+
+    .flex2{
+       margin-left: 0; 
+       height: 530px;
+      
+    }
+
+
+    .btn4{
+        height: 70px;
+        font-size: 18px;
+        width: 90%;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
