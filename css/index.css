@@ -19,7 +19,7 @@ body{
 .nav-link {
     display: flex;
     gap: 60px;
-    position: absolute;
+    position: relative;
     top: 160px;
     margin-left: 120px;
  
