@@ -215,11 +215,11 @@ color:hsl(0, 100%, 74%)
 @media screen  and (max-width: 500px) {
     
       #back{
-        height: 1450px;
+        height: 1400px;
       }
 
       #back::before{
-        height: 1450px;
+        height: 1400px;
     }
 
     .link > h1{
@@ -235,15 +235,15 @@ color:hsl(0, 100%, 74%)
     }
 
     .input1 > input{
-        height: 55px;
+        height: 35px;
         width: 100%;
-        font-size: 14px;
+        font-size: 12px;
     }
 
 
     .btn7{
         font-size: 12px;
-        height: 55px;
+        height: 35px;
         width: 100%;
     }
 
@@ -252,9 +252,7 @@ color:hsl(0, 100%, 74%)
         font-size: 14px;
     }
 
-    .btn4{
-        margin-left: 0;
-    }
+   
 
     .flex2{
        margin-left: 0; 
@@ -265,8 +263,9 @@ color:hsl(0, 100%, 74%)
 
     .btn4{
         height: 70px;
-        font-size: 18px;
+        font-size: 15px;
         width: 90%;
+        margin-left: 0;
     }
 
 
