@@ -215,11 +215,11 @@ color:hsl(0, 100%, 74%)
 @media screen  and (max-width: 500px) {
     
       #back{
-          height: 1400px;
+          height: 200vh;
       }
 
       #back::before{
-        height: 1400px;
+        height: 200vh;
     }
 
     .link > h1{
