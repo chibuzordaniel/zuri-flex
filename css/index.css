@@ -20,7 +20,7 @@ body{
     display: flex;
     gap: 60px;
     position: absolute;
-    top: 210px;
+    top: 160px;
     margin-left: 120px;
  
 }
@@ -54,7 +54,7 @@ body{
     right: 0px;
     }
 
-.flex2{
+  .flex2{
     background-color: #fff;
     margin-top: 20px;
   
