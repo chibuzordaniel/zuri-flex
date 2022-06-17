@@ -215,11 +215,11 @@ color:hsl(0, 100%, 74%)
 @media screen  and (max-width: 500px) {
     
       #back{
-        height: 1400px;
+        height: 1360px;
       }
 
       #back::before{
-        height: 1400px;
+        height: 1360px;
     }
 
     .link > h1{
@@ -256,7 +256,7 @@ color:hsl(0, 100%, 74%)
 
     .flex2{
        margin-left: 0; 
-       height: 530px;
+       height: 470px;
       
     }
 
